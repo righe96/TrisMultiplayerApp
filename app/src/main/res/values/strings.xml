@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TrisMultiplayer</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_single_player">SinglePlayerActivity</string>
+    <string name="databas_server">192.168.1.2</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_multiplayer">MultiplayerActivity</string>
+    <string name="title_activity_amicizie">AmicizieActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="it.android.alessiorighetti.trismultiplayer.activities.RegistrationActivity">
+    <item  android:id="@+id/registration_item"
+        android:icon="@drawable/ic_registration"
+        android:title="doRegistration"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+         />
+
+</menu>

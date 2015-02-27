@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+
+
+
+    android:background="@drawable/bg"
+    >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplayer"
+        android:id="@+id/multiplayer"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_menu_margin_bottom"
+        android:gravity="center"
+        android:textSize="@dimen/activity_menu_text_size" />
+
+    <TextView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Due contro Due"
+        android:id="@+id/duecontrodue"
+        android:layout_above="@+id/multiplayer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/activity_menu_margin_bottom"
+        android:gravity="center"
+        android:textIsSelectable="false"
+        android:textSize="@dimen/activity_menu_text_size"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TIC TAC TOE"
+        android:id="@+id/titolo"
+        android:layout_marginTop="20dp"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/usernameinfo"
+        android:text=""
+        android:textSize="20dp"
+        android:layout_below="@+id/multiplayer"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Amici"
+        android:id="@+id/amici"
+        android:gravity="center"
+        android:textSize="@dimen/activity_menu_text_size"
+        android:layout_marginBottom="@dimen/activity_menu_margin_bottom"
+        android:layout_below="@+id/multiplayer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
